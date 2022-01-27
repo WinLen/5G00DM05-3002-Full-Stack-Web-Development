@@ -1,0 +1,26 @@
+# Author: Denis Bogomolov <john.doe@example.com>
+# Date: 2022-01-20
+# File: 031.txt
+
+/etc/gitconfig — General settings for all users and repositories
+~/.gitconfig or ~/.config/git/config - User-specific settings
+.git/config - Settings for a specific repository
+
+A) 
+git config --global --get user.name
+git config --system --get user.name
+git config --local --get user.name
+
+git config --global --get user.email
+git config --system --get user.email
+git config --local --get user.email
+
+B)
+alias b ='branch'
+alias ci ='commit'
+alias cp ='cherry-pick'
+alias co ='checkout'
+alias st ='status --short --branch'
+alias edit ='git commit --amend'
+
+

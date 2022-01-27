@@ -1,0 +1,19 @@
+# Author: Denis Bogomolov <john.doe@example.com>
+# Date: 2022-01-20
+# File: 037.txt
+
+We can say that rebase is to detach the branch that you want to move and connect it to another branch.
+
+
+git checkout -b feature2
+git checkout development
+nano file1
+git add file1
+git commit
+git push
+nano file2
+git add file2
+git commit
+git push
+git checkout feature2
+git rebase

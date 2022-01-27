@@ -1,0 +1,16 @@
+# Author: Denis Bogomolov <john.doe@example.com>
+# Date: 2022-01-20
+# File: 034.txt
+
+A)
+nano file.txt
+git add file.txt
+git reset file.txt
+
+B)
+nano file.txt
+git add file.txt
+git commit
+git push
+git rm file.txt
+git reset

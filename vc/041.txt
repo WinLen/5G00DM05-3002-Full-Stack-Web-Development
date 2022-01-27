@@ -1,0 +1,10 @@
+# Author: Denis Bogomolov <john.doe@example.com>
+# Date: 2022-01-20
+# File: 037.txt
+
+A)
+git checkout master 
+git tag -a release/1.0.0
+B) git tag -l
+C)git show-ref --tags
+D) git diff tag1 tag2

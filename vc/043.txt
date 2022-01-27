@@ -1,0 +1,16 @@
+# Author: Denis Bogomolov <john.doe@example.com>
+# Date: 2022-01-20
+# File: 043.txt
+
+A)git reflog show --all
+B)
+nano file1
+nano file2
+git add file1
+git commit -m "1"
+git add file2
+git commit -m "2"
+C)
+git reflog
+git reset --hard 73b9363
+

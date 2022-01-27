@@ -1,0 +1,11 @@
+# Author: Denis Bogomolov <john.doe@example.com>
+# Date: 2022-01-20
+# File: 036.txt
+
+git checkout -b feature1
+nano file.txt
+git add file.txt
+git commit
+git push
+git checkout development
+git merge feature1
